@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soups"
+    android:background="@drawable/homescreen">
+
+    <TextView
+        android:id="@+id/sthead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Veg Starters"
+        android:fontFamily="@font/chelsea_market"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/stname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="100dp"
+        android:text="Name"
+        android:fontFamily="@font/chelsea_market"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/stprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="100dp"
+        android:text="Price"
+        android:fontFamily="@font/chelsea_market"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/white" />
+
+
+    <TextView
+        android:id="@+id/vs1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="140dp"
+        android:text="Veg Manchuria"
+        android:fontFamily="@font/chelsea_market"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/vs2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="180dp"
+        android:text="Paneer Tikka"
+        android:fontFamily="@font/chelsea_market"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/vs1pr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="140dp"
+        android:text="100"
+        android:fontFamily="@font/chelsea_market"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/vs2pr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="180dp"
+        android:text="110"
+        android:fontFamily="@font/chelsea_market"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:id="@+id/man"
+        android:layout_height="40dp"
+        android:layout_width="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="132dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/chelsea_market"
+        android:text="add"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/pan"
+        android:layout_height="40dp"
+        android:layout_width="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="172dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/chelsea_market"
+        android:text="add"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/nvsthead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="260dp"
+        android:layout_centerHorizontal="true"
+        android:text="Non Veg Starters"
+        android:fontFamily="@font/chelsea_market"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/nvs1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="310dp"
+        android:text="Chicken 65"
+        android:fontFamily="@font/chelsea_market"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/nvs2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="350dp"
+        android:text="Chilly Chicken"
+        android:fontFamily="@font/chelsea_market"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/nvs1pr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="310dp"
+        android:text="120"
+        android:fontFamily="@font/chelsea_market"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/nvs2pr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="350dp"
+        android:text="140"
+        android:fontFamily="@font/chelsea_market"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/chi65"
+        android:layout_height="40dp"
+        android:layout_width="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="302dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/chelsea_market"
+        android:text="add"
+        android:textSize="14dp"
+        />
+
+    <Button
+        android:id="@+id/chichi"
+        android:layout_height="40dp"
+        android:layout_width="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="342dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/chelsea_market"
+        android:text="add"
+        android:textSize="14dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp">
+
+        <Button
+            android:id="@+id/star_cart"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:fontFamily="@font/chelsea_market"
+            android:textSize="16dp"
+            android:text="open Cart" />
+
+        <Button
+            android:id="@+id/star_back"
+            android:layout_width="150dp"
+            android:textSize="16dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="40dp"
+            android:fontFamily="@font/chelsea_market"
+            android:text="go back" />
+    </LinearLayout>
+
+
+</RelativeLayout>

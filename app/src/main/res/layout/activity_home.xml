@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:background="@drawable/homescreen">
+
+    <FrameLayout
+        android:layout_width="270dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/soups"/>
+
+        <Button
+            android:id="@+id/soups"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:background="#00FFFFFF"
+            android:text="Soups"
+            android:fontFamily="@font/chelsea_market"
+            android:textColor="@color/white"
+            android:textSize="40dp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="270dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/border">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/starters"/>
+
+        <Button
+            android:id="@+id/starters"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:textColor="@color/white"
+            android:fontFamily="@font/chelsea_market"
+            android:textSize="40dp"
+            android:background="#00FFFFFF"
+            android:text="Starters" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="270dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/border">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/biryani"/>
+
+        <Button
+            android:id="@+id/biryani"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:textColor="@color/white"
+            android:fontFamily="@font/chelsea_market"
+            android:textSize="40dp"
+            android:background="#00FFFFFF"
+            android:text="Biryani" />
+
+
+    </FrameLayout>
+
+        <Button
+            android:id="@+id/home_cart"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="@font/chelsea_market"
+            android:textSize="16dp"
+            android:text="open Cart" />
+</RelativeLayout>

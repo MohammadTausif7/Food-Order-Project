@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homescreen"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="250dp"
+        android:fontFamily="@font/chelsea_market"
+        android:text="Hello! \nWelcome."
+        android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/con"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#CFC1A4"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Continue"
+        android:fontFamily="@font/chelsea_market"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>
